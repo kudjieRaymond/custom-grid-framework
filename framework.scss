@@ -1,0 +1,48 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.container {
+	max-width: 1em;
+	margin-right: auto;
+	margin-left: auto;
+  }
+
+.three-column-grid{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.three-column-grid {
+
+	.grid-item{
+		width: calc((100% - 20px * 2) / 3);
+		margin-right: 20px;	
+		
+		&:nth-child(3n+3) {
+			margin-right: 0;
+		}
+	}
+	
+}
+
+
+/* Demo purposes */
+.grid-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	text-align: center;
+	background: rgba(red, 0.25);
+  
+  }
+
