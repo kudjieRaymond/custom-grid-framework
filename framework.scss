@@ -1,3 +1,4 @@
+
 html {
 	box-sizing: border-box;
 }
@@ -7,42 +8,70 @@ html {
 *:after {
 	box-sizing: inherit;
 }
-
-.container {
-	max-width: 1em;
-	margin-right: auto;
-	margin-left: auto;
-  }
-
-.three-column-grid{
-
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-
-.three-column-grid {
-
-	.grid-item{
-		width: calc((100% - 20px * 2) / 3);
-		margin-right: 20px;	
-		
-		&:nth-child(3n+3) {
-			margin-right: 0;
-		}
-	}
-	
-}
-
-
-/* Demo purposes */
-.grid-item {
+@mixin colscommon($n) {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 80px;
 	text-align: center;
 	background: rgba(red, 0.25);
-  
+	width: calc(((100% - 5px * 11) / 12)*#{$n});
+	margin-right: 5px;
+	margin-bottom: 5px;
+	&:nth-child(12n+12) {
+		margin-right: 0;
+	}
+}
+
+.container {
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
   }
 
+.three-col-grid{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.three-col-grid {
+
+	.col-1{
+		@include colscommon(1);
+	}
+	.col-2{
+		@include colscommon(2);
+	}
+	.col-3{
+		@include colscommon(3);
+	}
+  .col-4{
+		@include colscommon(4);
+	}
+	.col-5{
+		@include colscommon(5);
+	}
+	.col-6{
+		@include colscommon(6);
+	}
+	.col-7{
+		@include colscommon(7);
+	}
+	.col-8{
+		@include colscommon(8);
+	}
+	.col-9{
+		@include colscommon(9);
+	}
+	.col-10{
+		@include colscommon(10);
+	}
+	.col-11{
+		@include colscommon(11);
+	}
+	.col-12{
+		@include colscommon(12);
+	}
+}
