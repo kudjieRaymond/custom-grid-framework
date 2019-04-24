@@ -1,0 +1,23 @@
+
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:20px;
+}
+.main-top-container{
+	text-align:center;
+}
+.main-top {
+	margin:20px
+}
+.accent{
+	color: #ce973e;
+}
+.descr{
+	color: rgba(74,74,74,0.7);
+}
+.curri{
+	font-size:18px;
+}
+.hero{
+	
+}
