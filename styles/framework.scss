@@ -1,10 +1,10 @@
 @import "reset";
 
 @mixin colscommon($n) {
-	
+
 	height: auto;
-	
-	
+
+
 	width: calc(((100% - 2px * 11) / 12) *#{$n});
 	margin-bottom: 5px;
 }
@@ -261,10 +261,10 @@ a:hover {
 .btn {
 	border-radius: 5px;
 	padding:15px 30px;
-	
+
 	color:#fff;
 	box-shadow: none;
-	
+
 }
 hr {
 	box-sizing: content-box;
@@ -291,7 +291,7 @@ hr {
 }
 .btn-warning{
 	background-color: #f0ad4e;
-	border-color:#5bc0de;
+	border-color:#f0ad4e;
 }
 .btn-danger{
 	background-color: #d9534f;
@@ -300,4 +300,7 @@ hr {
 }
 .txt-gray{
 	color: rgba(74,74,74,0.7);
+}
+.card{
+	 background: #ffffff;
 }

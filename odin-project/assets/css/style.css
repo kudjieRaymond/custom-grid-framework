@@ -34,3 +34,21 @@ body{
 .how-it-works img{
 	height:165px;
 }
+.curriculum img{
+	height: 180px;
+}
+.curriculum{
+  margin-top:50px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.curr-body{
+	background-color: #f3f3f3;
+	margin-top:30px;
+}
+.developer{
+	padding-top: 40px;
+}
+.bottm-curri{
+	padding-top: 40px;
+}
