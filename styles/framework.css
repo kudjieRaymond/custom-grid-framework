@@ -22,7 +22,7 @@ html {
   max-width: 100%;
   justify-content: space-around; }
 
-@media (min-width: 276px) {
+@media (min-width: 240px) {
   .row .col-xs-1 {
     height: auto;
     width: calc(((100% - 2px * 11) / 12) *1);
@@ -308,8 +308,7 @@ hr {
 
 .img-fluid {
   height: auto;
-  max-width: 100%;
-  display: block; }
+  max-width: 100%; }
 
 .btn-primary {
   background-color: #337ab7;
@@ -329,5 +328,8 @@ hr {
 .btn-danger {
   background-color: #d9534f;
   border-color: #d9534f; }
+
+.txt-gray {
+  color: rgba(74, 74, 74, 0.7); }
 
 /*# sourceMappingURL=framework.css.map */

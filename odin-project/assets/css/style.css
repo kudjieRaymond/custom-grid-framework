@@ -2,6 +2,7 @@
 body{
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size:20px;
+	color: rgba(74,74,74,0.7);
 }
 .main-top-container{
 	text-align:center;
@@ -12,12 +13,24 @@ body{
 .accent{
 	color: #ce973e;
 }
-.descr{
-	color: rgba(74,74,74,0.7);
-}
+
 .curri{
 	font-size:18px;
 }
 .hero{
-	
+	margin-top: 30px;
+}
+.center{
+	text-align:center;
+}
+.how-it-works-top{
+	margin-top:40px;
+}
+.how-it-works{
+	margin-top:40px;
+	margin-left:3%;
+	margin-right: 3%;
+}
+.how-it-works img{
+	height:165px;
 }
