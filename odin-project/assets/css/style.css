@@ -57,7 +57,7 @@ body{
 	margin-top:50px;
 	margin-left:8%;
 	margin-right: 8%;
-	
+
 }
 .stories .story img{
 	width: 50px;
@@ -96,5 +96,26 @@ a:hover{
 @media (max-width: 400px) {
 	.img-cont{
 		display: none;
-	}	
+	}
+}
+@media (max-width: 576px) {
+	.footer-links{
+		display: none;
+	}
+}
+@media (max-width: 768px) {
+	.footer-logo{
+		display: none;
+	}
+}
+
+footer{
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+.footer-grid{
+	padding-top: 15px;
+}
+.footer-links ul{
+	list-style-type: none;
 }
