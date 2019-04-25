@@ -4,6 +4,45 @@ body{
 	font-size:20px;
 	color: rgba(74,74,74,0.7);
 }
+header{
+	margin:auto;
+	width:auto;
+	height:80px;
+	
+	
+}
+
+nav{
+	display:flex;
+	width:100%;
+	justify-content: space-around;
+	padding-top:10px;
+}
+nav ul{
+	display:flex;
+	list-style: none;
+}
+nav ul li{
+	
+	font-weight:700;
+	cursor: pointer;
+	height:30px;
+	padding:10px;
+}
+nav ul li a {
+	color: rgba(74,74,74,0.7);
+}
+nav ul .faq a{
+	border-right:2px solid rgba(74,74,74,0.7);
+	padding-right:8px;
+
+}
+nav ul li:hover{
+	color:#000;
+}
+.menu-icon{
+	display:none;
+}
 .main-top-container{
 	text-align:center;
 }
@@ -53,10 +92,14 @@ body{
 .bottm-curri{
 	padding-top: 40px;
 }
+.stories-container{
+	background-color: #e9e4e4;
+}
 .stories{
-	margin-top:50px;
+	padding-top:50px;
 	margin-left:8%;
 	margin-right: 8%;
+	
 
 }
 .stories .story img{
@@ -106,6 +149,16 @@ a:hover{
 @media (max-width: 768px) {
 	.footer-logo{
 		display: none;
+	}
+	.nav-links{
+		display:none;
+	}
+	.menu-icon{
+
+		display: block;
+		height:25px;
+		width:25px;
+		margin-top:20px;
 	}
 }
 
