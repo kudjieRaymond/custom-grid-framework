@@ -1,0 +1,14 @@
+@mixin media-breakpoint-up($breakpoint) {
+	// Write the media query.
+	@media (min-width: ($breakpoint)) {
+		@content;
+	}
+}
+@mixin colscommon($n) {
+
+	height: auto;
+
+
+	width: calc(((100% - 2px * 11) / 12) *#{$n});
+	margin-bottom: 5px;
+}

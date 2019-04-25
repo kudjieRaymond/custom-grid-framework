@@ -1,0 +1,40 @@
+@include media-breakpoint-up(992px) {
+	.row {
+		.col-lg-1 {
+			@include colscommon(1);
+		}
+		.col-lg-2 {
+			@include colscommon(2);
+		}
+		.col-lg-3 {
+			@include colscommon(3);
+		}
+		.col-lg-4 {
+			@include colscommon(4);
+		}
+		.col-lg-5 {
+			@include colscommon(5);
+		}
+		.col-lg-6 {
+			@include colscommon(6);
+		}
+		.col-lg-7 {
+			@include colscommon(7);
+		}
+		.col-lg-8 {
+			@include colscommon(8);
+		}
+		.col-lg-9 {
+			@include colscommon(9);
+		}
+		.col-lg-10 {
+			@include colscommon(10);
+		}
+		.col-lg-11 {
+			@include colscommon(11);
+		}
+		.col-lg-12 {
+			@include colscommon(12);
+		}
+	}
+}
